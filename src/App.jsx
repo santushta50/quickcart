@@ -7,6 +7,7 @@ function App() {
   return (
     <div>
       <Header />
+      <p>QuickCart App</p>
       <ProductList products={products} />
     </div>
   );
