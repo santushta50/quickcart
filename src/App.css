@@ -192,3 +192,7 @@ body {
   text-align: center;
   padding: 20px;
 }
+body {
+  font-family: Arial;
+  margin: 0;
+}

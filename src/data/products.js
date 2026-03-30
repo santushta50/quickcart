@@ -4,7 +4,7 @@ export const products = [
     name: "Wireless Headphones",
     price: 79.99,
     image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
-    description: "Premium noise-cancelling wireless headphones with long battery life",
+    description: "Premium noise-cancelling wireless headphones",
     category: "Electronics"
   },
   {
@@ -12,7 +12,7 @@ export const products = [
     name: "Smart Watch",
     price: 199.99,
     image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
-    description: "Fitness tracker with heart rate monitor and GPS",
+    description: "Fitness tracker with heart rate monitor",
     category: "Electronics"
   },
   {
@@ -20,7 +20,7 @@ export const products = [
     name: "Laptop Stand",
     price: 49.99,
     image: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=400&fit=crop",
-    description: "Ergonomic aluminum laptop stand for better posture",
+    description: "Ergonomic aluminum laptop stand",
     category: "Accessories"
   },
   {
@@ -28,7 +28,7 @@ export const products = [
     name: "Coffee Maker",
     price: 89.99,
     image: "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=400&h=400&fit=crop",
-    description: "Programmable coffee maker with thermal carafe",
+    description: "Programmable coffee maker",
     category: "Home"
   },
   {
@@ -36,7 +36,7 @@ export const products = [
     name: "Yoga Mat",
     price: 29.99,
     image: "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400&h=400&fit=crop",
-    description: "Non-slip eco-friendly yoga mat with carry strap",
+    description: "Non-slip eco-friendly yoga mat",
     category: "Sports"
   },
   {
@@ -52,7 +52,7 @@ export const products = [
     name: "Backpack",
     price: 59.99,
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop",
-    description: "Water-resistant laptop backpack with USB port",
+    description: "Water-resistant laptop backpack",
     category: "Accessories"
   },
   {
