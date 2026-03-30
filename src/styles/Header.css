@@ -1,25 +1,32 @@
 .header {
-  background: purple;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  padding: 20px;
+  padding: 12px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
+.header-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 8px 16px;
+}
 
-.header-content {
+.header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 12px;
 }
 
 .cart-icon-btn {
   position: relative;
   background: none;
   border: none;
-  font-size: 2rem;
+  font-size: 1.6rem;
   cursor: pointer;
   outline: none;
-  margin-left: 20px;
-  transition: transform 0.2s;
+  margin-left: 12px;
+  transition: transform 0.18s;
 }
 
 .cart-icon-btn:hover {
@@ -43,7 +50,19 @@
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
-.cart-btn {
-  padding: 10px;
-  cursor: pointer;
+.cart-btn { padding: 10px; cursor: pointer; }
+
+.header-logo { text-decoration: none; color: white; }
+.header-title { margin: 0; font-size: 1.25rem; }
+.header-subtitle { margin: 0; font-size: 0.85rem; opacity: 0.95; }
+
+.header-nav { display: flex; gap: 12px; margin-top: 10px; }
+.nav-link { color: white; text-decoration: none; padding: 6px 10px; border-radius: 6px; transition: background 0.18s; }
+.nav-link:hover { background: rgba(255,255,255,0.08); }
+
+.header-actions { display: flex; align-items: center; gap: 12px; }
+
+@media (max-width: 768px) {
+  .header-nav { overflow-x: auto; white-space: nowrap; }
+  .search-input { width: 120px; }
 }
