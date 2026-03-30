@@ -4,7 +4,7 @@ function ProductCard({ product, onAddToCart }) {
   return (
     <div className="product-card">
       <div className="product-image-container">
-        <img src={product.image} alt={product.name} className="product-image" />
+        <img src={product.image} alt={product.name} className="product-image" loading="lazy" />
       </div>
       <div className="product-info">
         <h3 className="product-name">{product.name}</h3>

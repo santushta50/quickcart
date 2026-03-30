@@ -2,12 +2,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import ProductList from "./components/ProductList";
 import CartSidebar from "./components/CartSidebar";
-
-const products = [
-  { id: 1, name: "Shoes", price: 50, image: "https://via.placeholder.com/100" },
-  { id: 2, name: "Watch", price: 80, image: "https://via.placeholder.com/100" },
-  { id: 3, name: "Bag", price: 120, image: "https://via.placeholder.com/100" }
-];
+import { products } from "./data/products";
 
 export default function App() {
   const [cart, setCart] = useState([]);
