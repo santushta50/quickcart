@@ -8,6 +8,7 @@ function App() {
     <div>
       <Header />
       <p>QuickCart App</p>
+      <p>PR test change</p>
       <ProductList products={products} />
     </div>
   );
